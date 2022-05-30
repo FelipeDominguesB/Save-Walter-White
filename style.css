@@ -331,3 +331,57 @@ body article{
         padding-bottom: 2rem;
     }
 }
+
+.sobre-walter-1{
+    width: 250px;
+    height: 250px;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.texto-walter-1 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding: 6rem;
+    text-align: center;
+}
+
+.imagem-walter-2 {
+    display: inline-flex;
+    float: left;
+}
+
+.imagem-walter-3 {
+    display: inline-flex;
+    float: right;
+}
+
+.titulo-walter-3 {
+      display:inline-flexbox;
+      margin: 7rem;
+      text-align: right;
+      margin-right: 17rem;
+}
+
+.texto-walter-3 {
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 270px;    
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
