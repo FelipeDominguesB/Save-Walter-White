@@ -439,22 +439,6 @@ footer a::after{
     }
 }
 
-.sobre-walter-1{
-    width: 250px;
-    height: 250px;
-    margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-.texto-walter-1 {
-    margin-top: 25px;
-    margin-bottom: 40px;
-    padding: 6rem;
-    text-align: center;
-}
-
 .imagem-walter-2 {
     display: inline-flex;
     float: left;
@@ -466,7 +450,7 @@ footer a::after{
 }
 
 .titulo-walter-3 {
-      display:inline-flexbox;
+      display: inline-flexbox;
       margin: 7rem;
       text-align: right;
       margin-right: 17rem;
@@ -491,3 +475,52 @@ footer a::after{
   float: left;
   width: 25%;
 }
+
+.sobre{
+    width: 100%;
+    max-width: 120rem;
+    padding: 3rem;
+    background-color: white;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .8rem;
+    margin: auto;
+}
+
+.sobre-walter{
+    width: 100%;
+    padding: 1rem;
+}
+
+.img-walter{
+    min-width: 15rem;
+    max-width: 15rem;
+    height: 20rem;
+    position: relative;
+}
+
+.sobre-walter img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: .8rem;
+    margin: auto;
+}
+
+.titulo-walter{
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+    color: rgb(114, 100, 100);
+    text-align: center;
+}
+
+.texto-walter {
+    font-size: 1.4rem;
+    color: rgba(0,0,0,.7);
+    text-align: justify;
+}
+
+
