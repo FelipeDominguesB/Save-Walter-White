@@ -30,10 +30,17 @@
             <section class ="sobre-walter">
                 <h1 class="titulo-walter">Sobre Walter White</h1>
                 <p class="texto-walter">Ninguém melhor para falar sobre Walter do que o seu próprio filho, Walter Jr., idealizador deste site.</p>
+
+                <div class="vid-container">
+                    <video muted autoplay loop id="vid-walter">
+                        <source src="imagens/vid-walter.mp4" type="video/mp4">
+                    </video>
+                    <button id="vid-botao" onclick="pausar()">Pause</button>
+                </div>
+                
             </section>
 
             <section class="sobre-walter">
-                <img class="img-walter" src="imagens/walter_4.jpg" alt="walter-1">
                 
                 <h1 class="titulo-walter">Meu pai é incrível</h1> 
                 <p class="texto-walter">
@@ -105,5 +112,6 @@
             A página é uma reimaginação do site <a href="http://www.savewalterwhite.com/" target="_blank" rel="external">savewalterwhite.com</a></p>
     </footer>
     
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
