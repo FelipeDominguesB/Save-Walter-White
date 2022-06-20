@@ -27,12 +27,12 @@
     
     <section id="donate">
         <main class="main-content">
-            <form>
+            <form id="donate-form">
         
                 <label>Informe seu nome</label>
-                <input type="text">
+                <input type="text" id="nome" name="nome" required>
                 <label>Informe o valor da doação</label>
-                <input type="number">
+                <input type="number" id="valor" name="valor" required>
                 <label>Como você encontrou a campanha?</label>
                 <select>
                     <option>Redes sociais</option>
@@ -42,7 +42,7 @@
                     <option>Prefiro não dizer</option>
                 </select>
                 <label>Mande uma mensagem para a família:</label>
-                <textarea rows="5"></textarea>
+                <textarea rows="5" ></textarea>
                 <div class="">
                     <input type="checkbox" name="nothanks" id="nothanks">
                     <label for = "nothanks">Não quero ser incluido na lista de agradecimentos</label>
@@ -68,5 +68,6 @@
             A página é uma reimaginação do site <a href="http://www.savewalterwhite.com/" target="_blank" rel="external">savewalterwhite.com</a></p>
     </footer>
     
+    <script src="main.js"></script>
 </body>
 </html>

@@ -446,43 +446,6 @@ footer a::after{
     }
 }
 
-.imagem-walter-2 {
-    display: inline-flex;
-    float: left;
-}
-
-.imagem-walter-3 {
-    display: inline-flex;
-    float: right;
-}
-
-.titulo-walter-3 {
-      display: inline-flexbox;
-      margin: 7rem;
-      text-align: right;
-      margin-right: 17rem;
-}
-
-.texto-walter-3 {
-    text-align: right;
-    margin-left: 100px;
-    margin-right: 270px;    
-}
-
-.row {
-  margin: 8px -16px;
-}
-
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
 .sobre{
     width: 100%;
     max-width: 120rem;
@@ -528,4 +491,23 @@ footer a::after{
     font-size: 1.4rem;
     color: rgba(0,0,0,.7);
     text-align: justify;
+}
+
+/* Vídeo para página Sobre Walter - Danilo */
+#vid-walter{
+    border-radius: .8rem;
+    width: 100%;
+    position: relative;
+    left: 30%;
+
+}
+
+/* Estilizar conteiner do vídeo - Danilo */
+.vid-container{
+    
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
