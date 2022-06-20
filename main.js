@@ -1,15 +1,11 @@
-// Get the video
+// Pegar elemento de video
 var video = document.getElementById("vid-walter");
 
 
 
+//Adicionar elemento de click que faz o vídeo pausar ou voltar a reproduzir
 video.addEventListener('click', () =>{
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pausar";
-  } else {
-    video.pause();
-    btn.innerHTML = "Reproduzir";
-  }
+
+  video.paused ? video.play() : video.pause();
 });
 
