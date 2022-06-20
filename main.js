@@ -1,16 +1,15 @@
 // Get the video
 var video = document.getElementById("vid-walter");
 
-// Get the button
-var btn = document.getElementById("vid-botao");
 
-// Pause and play the video, and change the button text
-function pausar() {
+
+video.addEventListener('click', () =>{
   if (video.paused) {
     video.play();
-    btn.innerHTML = "Pause";
+    btn.innerHTML = "Pausar";
   } else {
     video.pause();
-    btn.innerHTML = "Play";
+    btn.innerHTML = "Reproduzir";
   }
-}
+});
+
