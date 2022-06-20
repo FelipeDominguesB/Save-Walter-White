@@ -172,18 +172,6 @@ article{
     margin: auto;
 }
 
-.postagem{
-    width: 100%;
-    max-width: 120rem;
-    padding: 3rem;
-    background-color: white;
-    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, .2);
-    display: flex;
-    align-items: center;
-    border-radius: .8rem;
-    margin-bottom: 2.5rem;
-}
-
 .main-content{
     width: 100%;
     max-width: 120rem;
@@ -200,6 +188,20 @@ body #donate{
     padding: 30px 30px 0px 30px ;
 }
 
+/* Criando o conteiner para as postagens da página A Campanha - Danilo */
+.postagem{
+    width: 100%;
+    max-width: 120rem;
+    padding: 3rem;
+    background-color: white;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    border-radius: .8rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Conteiner para as imagens das postagens com enquadramento das imagens fora do conteiner exterior - Danilo */
 .postagem_img{
     min-width: 35rem;
     max-width: 35rem;
@@ -208,6 +210,7 @@ body #donate{
     position: relative;
 }
 
+/* Criando especificação para inverter o formato do segundo bloco de postagem - Danilo */
 #bloco_2{
     flex-direction: row-reverse;
 }
@@ -216,6 +219,7 @@ body #donate{
     transform: translateX(4rem);
 }
 
+/* Os estilos abaixo estão relacionados aos detalhes dos blocos de postagem, configurando a imagem, o formato da data, título e textos, respectivamente - Danilo */
 .postagem_img img{
     width: 100%;
     height: 100%;
@@ -261,6 +265,7 @@ body #donate{
     margin-bottom: 2rem;
 }
 
+/* Estilizando e decorando os links nas postagens - Danilo */
 .postagem_texto a{
     text-decoration: none;
     color:rgb(100, 80, 80); 
@@ -270,6 +275,7 @@ body #donate{
     color:#00a03b;
 }
 
+/* Insere um símbolo de link nos links das postagens - Danilo */
 .postagem_texto a::after{
     content:" \01F517";
 }
@@ -340,6 +346,7 @@ footer a::after{
     content:" \01F517";
 }
 
+/* As configurações abaixo redimensionam os itens para se adaptar ao tamanho das telas - Danilo*/
 @media only screen and (max-width: 1068px) {
     .header{
         flex-direction: column;
@@ -522,5 +529,3 @@ footer a::after{
     color: rgba(0,0,0,.7);
     text-align: justify;
 }
-
-
