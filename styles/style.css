@@ -30,6 +30,7 @@ body *{
 
 body #main_page{
     flex-direction: column;
+    
 }
 
 .header{
@@ -90,7 +91,7 @@ main{
     display: flex;
     padding: 30px 30px 0px 30px ;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
 }
 
 main form{
@@ -185,6 +186,7 @@ article{
 }
 
 body #donate{
+    width: 50%;
     padding: 30px 30px 0px 30px ;
 }
 
@@ -318,10 +320,11 @@ body #donate{
 }
 
 footer{
-    margin-top: 15px;
-    position: static;
+    margin-top: 10px;
+    position: absolute;
     bottom: 0;
     width: 100%;
+
     text-align: center;
     background-color: #666666;
 }
