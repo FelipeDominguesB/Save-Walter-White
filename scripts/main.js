@@ -1,6 +1,5 @@
 // Pegar elemento de video e formulário de doação  - Felipe D
 const video = document.getElementById("vid-walter");
-const formDonate = document.querySelector("#donate-form");
 
 //Evento só é adicionado se encontrar o elemento em questão - Felipe D
 if(video)

@@ -5,6 +5,9 @@
 const donateValue = document.querySelector('#donateValue');
 const localStorageValue = window.localStorage.getItem('value');
 
+
+const formDonate = document.querySelector("#donate-form");
+
 if(localStorageValue === null)
 {
     window.localStorage.setItem('value', 55750);
@@ -58,6 +61,7 @@ if(formDonate)
         UpdateDonations();
         //Resetando o form pra dar a ideia de submit - Felipe D
         formDonate.reset();
+        alert("Obrigado por doar para Walter White!");
 	
   });
   
